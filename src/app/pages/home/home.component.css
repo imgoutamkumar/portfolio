@@ -1,0 +1,14 @@
+.SocialIcons {
+  padding: 30px 20px 25px 0px;
+}
+.download-btn {
+  background-color: dodgerblue;
+  padding: 8px 8px 8px 8px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.download-btn :hover {
+  background-color: royalblue;
+}

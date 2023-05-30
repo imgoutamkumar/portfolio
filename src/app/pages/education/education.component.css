@@ -1,0 +1,75 @@
+.cardBoxHeader {
+  text-align: center;
+  padding: 80px 0px 20px 0px;
+}
+.edu {
+  background: rgb(227, 239, 249);
+  width: 100%;
+  padding: 60px 0px 30px 0px;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px 0px 40px;
+}
+.container {
+  padding: 12px 30px;
+  position: relative;
+  width: 50%;
+}
+.text-box {
+  padding: 20px 30px;
+  background: rgb(252, 171, 221);
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+  padding: 40px 0px 40px 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+.left-container {
+  left: 0%;
+  margin-left: 0px;
+}
+.right-container {
+  left: 50%;
+  margin-left: 0px;
+}
+.container img {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  top: 26px;
+  z-index: 10;
+  right: -20px;
+}
+.right-container img {
+  left: -25px;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  margin-left: -3px;
+}
+.text-box h2 {
+  font-weight: 400;
+}
+.text-box small {
+  display: inline-block;
+  margin-bottom: 15px;
+}
