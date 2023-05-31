@@ -9,27 +9,25 @@ export class ProjectsComponent {
   public projectDetails = [
     {
       project_id: 1,
-      project_img:
-        'https://drive.google.com/file/d/1zsutuxsb9CUqzI-AvhUy-R5KGpj-0JZe/view?usp=share_link',
-      thumbnail: 'hfgf',
-      title: 'Crud App',
-      description: 'sdsfs',
+
+      thumbnail: 'assets/portfolio.png',
+      title: 'Portfolio Website',
+      description:
+        'This website is built using Angular FrameWork using HTML, CSS ,TypeScript and Some Popular Libraries like Angular Material, Aos Animation libraries etc.',
     },
     {
       project_id: 2,
-      project_img:
-        'https://drive.google.com/file/d/1zsutuxsb9CUqzI-AvhUy-R5KGpj-0JZe/view?usp=share_link',
-      thumbnail: 'hfgf',
-      title: 'Rest API',
-      description: 'sdsfs',
+      thumbnail: 'assets/crud_app.png',
+      title: 'Crud App',
+      description:
+        'This is an Employee Management Web Application, Where you can Create, Read, update, and Delete the employee information.This App Uses Fake JSON Server to handle Server side processes',
     },
     {
       project_id: 3,
-      project_img:
-        'https://drive.google.com/file/d/1zsutuxsb9CUqzI-AvhUy-R5KGpj-0JZe/view?usp=share_link',
-      thumbnail: 'hfgf',
+
+      thumbnail: 'assets/spotify_clone.png',
       title: 'Spotify Clone',
-      description: 'sdsfs',
+      description: 'This is a Spotify Front-end UI Clone app.',
     },
   ];
 }

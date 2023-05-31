@@ -1,3 +1,10 @@
 .cardbox1:hover {
   zoom: 10px;
 }
+.card-title {
+  font-size: 30px;
+  padding: 15px 0px 8px 0px;
+}
+.card-text {
+  font-size: 18px;
+}
