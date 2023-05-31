@@ -23,7 +23,15 @@
       <div class="card mb-3" style="width: 100%">
         <div class="row g-0">
           <div class="col-md-4">
-            <div style="height: 250px; width: 360px">
+            <div
+              style="
+                height: 250px;
+                width: 360px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+              "
+            >
               <!-- <img src="assets\portfolio.png" style="width: 100%" /> -->
               <img [src]="pd.thumbnail" style="width: 100%" />
             </div>
@@ -34,6 +42,9 @@
               <h3 class="card-text">
                 {{ pd.description }}
               </h3>
+              <a [href]="pd.view" target="_blank" style="text-decoration: none"
+                >View</a
+              >
             </div>
           </div>
         </div>
@@ -43,5 +54,46 @@
 </div>
 <div
   class="fotterSection"
-  style="width: 100%; height: 350px; background-color: aliceblue"
-></div>
+  style="
+    width: 100%;
+    height: 350px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+  "
+>
+  <h2 style="font-size: 20px; font-weight: 300">
+    This is my portfolio website where you will get updated with my hands on
+    projects.Regarding any information and queries you can contact me through
+    <span style="color: blue">goutamkumar42010no@gmail.com</span>
+  </h2>
+  <div class="SocialIcons">
+    <ul style="display: flex; list-style-type: none; gap: 10px; padding: 0px">
+      <li>
+        <a href=""
+          ><img
+            src="https://img.icons8.com/?size=512&id=13963&format=png"
+            style="width: 40px"
+        /></a>
+      </li>
+      <li>
+        <a href=""
+          ><img
+            src="https://img.icons8.com/?size=512&id=32323&format=png"
+            style="width: 40px"
+        /></a>
+      </li>
+      <li>
+        <a href=""
+          ><img
+            src="https://img.icons8.com/?size=512&id=13930&format=png"
+            style="width: 40px"
+        /></a>
+      </li>
+    </ul>
+  </div>
+</div>
